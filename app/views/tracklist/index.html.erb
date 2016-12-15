@@ -1,0 +1,13 @@
+<h1 style="color:white; font-family: Helvetica Neue; margin-left: 50px;">tracklist</h1>
+<ul>
+
+    <%@tracks.each do |track| %>
+    <li style="color:white; width: 300px;"><a href="/track/<%=track.id%>"><%=track.title%></a></li>
+   <%end%>
+
+</ul>
+
+
+<div class="tracklist_image">
+   <%=image_tag ("tracklist.png"), :class=>"tracklist_image",  :style => "max-height: 700px; width: 280px; float: right; margin-right: 150px; margin-top: 50px; margin-bottom: 50px;" %>
+</div>

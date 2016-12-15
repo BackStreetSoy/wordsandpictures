@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sonofdoom</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+    <h1 class="doom" style="color: white; margin: auto; font-family: Helvetica Neue;  padding-left:290px; padding-top: 200px; font-size: 70px"><a href="/">words (with pictures)</a></h1>
+
+    <p style="color: white; padding-left:540px; font-family: Helvetica Neue;"> [a <span class="rainbow">lasertoast</span> project] </p>
+
+<%= yield %>
+
+</body>
+</html>

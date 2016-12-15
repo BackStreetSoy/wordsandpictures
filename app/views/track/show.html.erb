@@ -1,0 +1,16 @@
+
+
+
+
+<div class="track_image">
+   <%=image_tag (@track.image), :class=>"track_image",  :style => "max-height: 800px; width: 300px; float: right; margin-right: 100px; margin-top: 50px; margin-bottom: 50px;" %>
+</div>
+
+<div class="track_words">
+    <p style="color: white; font-family: Helvetica Neue; width: 300px; margin-top: 70px; margin-left: 200px;">
+        <%= @track.words.html_safe %></p>
+</div>
+
+
+<h4 style="color:white; font-family: Helvetica Neue; margin-left: 50px;"><a href="/tracklist/index">back</a></h4>
+<ul>

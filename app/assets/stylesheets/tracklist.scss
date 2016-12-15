@@ -1,0 +1,16 @@
+// Place all the styles related to the tracklist controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ul{
+    list-style-type: none;
+    font-family: Helvetica Neue;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-right: 0;
+    position: absolute;
+}
+
+tracklist_image{
+    z-index: 2;
+    margin-right: 50px;
+}
